@@ -1,0 +1,12 @@
+# Zowe credentials and config: never commit these
+zowe.config.json
+zowe.config.user.json
+.zowe/
+
+# Secrets and environment files
+*.env
+
+# Editor and OS clutter
+.vscode/
+.DS_Store
+Thumbs.db
