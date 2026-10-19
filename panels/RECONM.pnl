@@ -1,0 +1,26 @@
+)ATTR
+ % TYPE(TEXT) INTENS(HIGH)
+ + TYPE(TEXT) INTENS(LOW)
+ _ TYPE(INPUT) INTENS(HIGH) CAPS(ON) JUST(LEFT)
+ $ TYPE(OUTPUT) INTENS(HIGH) CAPS(OFF)
+)BODY
+%------------ RECONCILIATION SYSTEM - MAIN MENU ------------
+%OPTION ===>_ZCMD    +
++
+%   1+ View Statistics  - record counts of input and output
+%   2+ Submit Job       - run the reconciliation batch job
+%   3+ Monitor Status   - check the job status
+%   4+ View Matched     - browse matched records
+%   5+ View Unmatched   - browse unmatched records
+%   6+ View Errors      - browse error records
++
+$MSG1                                                      +
+$MSG2                                                      +
+$MSG3                                                      +
+$MSG4                                                      +
++
++Press%F3+to exit
+)INIT
+  .CURSOR = ZCMD
+)PROC
+)END
