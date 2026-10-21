@@ -13,6 +13,7 @@
 %   4+ View Matched     - browse matched records
 %   5+ View Unmatched   - browse unmatched records
 %   6+ View Errors      - browse error records
+%   7+ Run Db2 Version  - reconcile through Db2
 +
 $MSG1                                                      +
 $MSG2                                                      +
